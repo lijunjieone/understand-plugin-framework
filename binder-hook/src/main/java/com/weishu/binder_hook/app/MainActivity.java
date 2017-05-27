@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         try {
+//            BinderHookHelper2.hookClipboardService();
             BinderHookHelper.hookClipboardService();
         } catch (Exception e) {
             e.printStackTrace();

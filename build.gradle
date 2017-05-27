@@ -11,3 +11,10 @@ buildscript {
     }
 }
 
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "http://10.0.5.171:8081/artifactory/maxthon-libs" }
+    }
+}
+
